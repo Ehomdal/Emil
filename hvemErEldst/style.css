@@ -1,0 +1,27 @@
+body {
+    background-color: #281555; /* Mørk magenta */
+    color: white; /* Hvit tekst for god kontrast */
+    font-family: Arial, sans-serif; /* Enkel, lesbar font */
+    text-align: center; /* Sentrer tekst */
+    padding: 50px; /* Gir litt plass rundt innholdet */
+}
+input {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    border: 2px solid #fff; /* Hvit kant rundt input-feltene */
+    background-color: #333; /* Mørk bakgrunn for inputfeltene */
+    color: white; /* Hvit tekst i input-feltene */
+}
+button {
+    padding: 10px 20px;
+    background-color: #fff; /* Hvit bakgrunn for knappen */
+    color: #8B008B; /* Mørk magenta tekstfarge på knappen */
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #8B008B; /* Mørk magenta bakgrunn på knapp når musen er over */
+    color: white; /* Hvit tekst på knappen når den er hoveret */
+}
