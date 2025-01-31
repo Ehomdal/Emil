@@ -1,0 +1,62 @@
+</head>
+<body>
+    <form method="post">
+        <label for="number">skriv et tall:</label>
+        <input type="number" id="number" name="number" required>
+        <button type="submit">generer en tabell</button>
+    </form>
+
+    <?php
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        $number = intval($_POST["number"]);
+        echo "<table>";
+        for ($i = 1; $i <= 10; $i++) {
+            echo "<tr><td>$number</td><td>x</td><td>$i</td><td>=</td><td>" . ($number * $i) . "</td></tr>";
+        }
+        echo "</table>";
+    }
+    ?>
+
+    </head>
+<body>
+    <form method="post">
+    <label for="number">skriv et tall:</label>
+    <input type="number" id="number" name="number" required>
+    <button type="submit">generer  en tabell</button>
+    </form>
+
+    <?php
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $number = intval($_POST["number"]);
+    echo "<table>";
+    for ($i = 1; $i <= 10; $i++) {
+        echo "<tr>";
+        echo "<td>$number</td>";
+        echo "<td>x</td>";
+        echo "<td>$i</td>";
+        echo "<td>=</td>";
+        echo "<td>" . ($number * $i) . "</td>";
+        echo "</tr>";
+    }
+    echo "</table>";
+    }
+    ?>
+
+    1. Start HTML-formularet:
+   - Lag en form som bruker POST-metoden.
+   - Inkluder et input-felt der brukeren kan skrive inn et tall (type="number").
+   - Legg til en knapp for å sende inn formen og generere tabellen.
+
+2. Sjekk om metoden som brukes er POST:
+   - Hvis det er en POST-forespørsel, hent verdien fra input-feltet og konverter den til et heltall (intval).
+
+3. Start å generere en tabell:
+   - Begynn å lage en HTML-tabell.
+
+4. For hver multiplikasjon fra 1 til 10:
+   - For hvert tall i området 1 til 10, generer en rad i tabellen:
+     - Legg til verdien av tallet, "x", multiplikatoren, "=", og resultatet av multiplikasjonen (tallet * multiplikatoren).
+
+5. Lukk tabellen etter at alle radene er laget.
+
+6. Slutt HTML-dokumentet.
