@@ -1,0 +1,55 @@
+/* Grunnleggende styling */
+body {
+    background-color: #001f3d; /* Navy Blue bakgrunnsfarge */
+    color: white; /* Tekstfarge */
+    font-family: Arial, sans-serif; /* Velg et skrifttype */
+    margin: 0;
+    padding: 0;
+    float: left; /* Innholdet flyter til venstre */
+  }
+  
+  a {
+    color: white; /* Linkfarge */
+    text-decoration: none; /* Fjerner understreking på linker */
+    padding: 5px;
+    transition: background-color 0.3s ease; /* Glidende overgang ved hover */
+  }
+  
+  /* Når du holder musen over en link */
+  a:hover {
+    background-color: #006699; /* Markerer linken med en lysere blå farge */
+    border-radius: 5px; /* Runde kanter på markeringen */
+  }
+  
+  /* Flytter innholdet til venstre */
+  header, footer, main, section, article {
+    float: left;
+  }
+  /* Grunnleggende styling */
+  body {
+    background-color: #001f3d; /* Navy Blue bakgrunnsfarge */
+    color: white; /* Tekstfarge */
+    font-family: Arial, sans-serif; /* Velg et skrifttype */
+    margin: 0;
+    padding: 0;
+    float: left; /* Innholdet flyter til venstre */
+  }
+  
+  a {
+    color: white; /* Linkfarge */
+    text-decoration: none; /* Fjerner understreking på linker */
+    padding: 5px;
+    transition: background-color 0.3s ease; /* Glidende overgang ved hover */
+  }
+  
+  /* Når du holder musen over en link */
+  a:hover {
+    background-color: #006699; /* Markerer linken med en lysere blå farge */
+    border-radius: 5px; /* Runde kanter på markeringen */
+  }
+  
+  /* Flytter innholdet til venstre */
+  header, footer, main, section, article {
+    float: left;
+  }
+  
